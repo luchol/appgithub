@@ -8,12 +8,8 @@
 
 <VBox alignment="CENTER" prefHeight="199.0" prefWidth="306.0" spacing="20.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.holamundo.PrimaryController">
    <children>
-      <ButtonBar prefHeight="40.0" prefWidth="200.0">
-        <buttons>
-          <Button mnemonicParsing="false" text="Button" />
-        </buttons>
-      </ButtonBar>
-      <Label text="Primary View" />
+      <ButtonBar prefHeight="40.0" prefWidth="200.0" />
+      <Label text="hola mundo" />
       <Button fx:id="primaryButton" onAction="#switchToSecondary" text="Switch to Secondary View" />
    </children>
    <padding>
